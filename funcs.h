@@ -1,5 +1,6 @@
 #pragma once
 using namespace std;
+#include <vector>
 
 vector<int> makeVector(int n);
 vector<int> goodVibes(const vector<int> &v);

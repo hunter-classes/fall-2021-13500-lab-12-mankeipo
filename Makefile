@@ -4,7 +4,7 @@ main: main.o funcs.o
 main.o: main.cpp funcs.h
 	g++ -c main.cpp -std=c++11 
 
-funcs.o: funcs.cpp funcs.cpp
+funcs.o: funcs.cpp funcs.h
 	g++ -c funcs.cpp
 
 tests: tests.o funcs.o
